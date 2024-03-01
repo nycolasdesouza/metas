@@ -2,7 +2,7 @@ h1{
     color: red;
 }
 
-root {
+:root {
 
     --cor-de-fundo: #1E1E1E;
     
@@ -93,7 +93,7 @@ border-top: none;
 
 }
 
-botoes {
+.botoes {
 
 display: block;
 
@@ -118,7 +118,7 @@ ativo{
     
     }
     
-    botao:first-child {
+    .botao:first-child {
     
     border-radius: 40px 40px 0 0;
     
@@ -140,7 +140,7 @@ ativo{
     
     }
     
-    botao:last-child {
+    .botao:last-child {
     
     border-radius: 0 40px 0 0;
     
